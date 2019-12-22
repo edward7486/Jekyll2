@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Site colophon (how I made this website)"
+date:   2018-06-30
+author: "Edward Nguyen"
+---
+
+<p>I used Jekyll, a static website generator to create the site. Jekyll uses templates, includes, markdown, and auto compiles sass. It makes it really easy to code modularly if you're into that stuff. Another added benefit of using Jekyll: it was created by the founder of Github, and Github Pages are powered by Jekyll. You can easily deploy your site using Github for free because of it. Let me know if you want to learn how to adopt a similar set up. Thanks for reading!</p>

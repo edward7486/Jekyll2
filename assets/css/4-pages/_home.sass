@@ -1,0 +1,113 @@
+.wrapper
+  width: 800px
+  margin: 0 auto
+
+  .work-block
+    width: 800px
+    margin: 0 auto
+    border: 1px solid #E8E8E8
+    border-radius: 4px
+    margin-bottom: 32px
+
+    .work-image
+      display: inline-block
+      width: 400px
+      height: 200px
+      float: left
+
+      &#lp-case
+        background: #fafafa
+    
+      &#sj-case2
+        background: #fcfcfc
+        text-align: center
+
+      .coming-soon
+        line-height: 200px
+        color: #8C8C8C
+        font:
+          style: italic
+
+      svg
+        width: 50%
+        margin: 0 auto
+        display: block
+        height: 200px
+
+    .work-desc
+      background-color: #FFF
+      display: inline-block
+      width: 352px
+      height: 152px
+      padding: 24px
+
+      .work-title
+        padding-bottom: 16px
+        display: block
+        color: #253344
+        font:
+          size: 18px
+          weight: 700
+
+      .work-copy
+        display: block
+        font-size: 14px
+        color: #262626
+
+      .read-more
+        display: block
+        padding-top: 16px
+        color: $primary-color
+        font:
+          size: 16px
+
+        &:hover
+          text-decoration: underline
+
+      .undone
+        display: block
+        padding-left: 24px
+        padding-top: 16px
+        font:
+          size: 16px
+          weight: 300
+          style: italic
+        color: #8C8C8C
+
+  @media screen and (max-width: 800px)
+
+    .work-block
+      max-width: 320px
+
+      .work-image
+        max-width: 320px
+        max-height: 160px
+
+        img
+          max-width: 100%
+          height: auto
+
+      .work-desc
+        max-width: 264px
+        height: auto
+        padding-bottom: 24px
+
+  img
+    display: block
+    margin: 0 auto
+    max-width: 800px
+
+  @media screen and (max-width: 800px)
+    img
+      max-width: 100%
+      height: auto  
+
+  h4
+    margin: 32px 0 8px 0
+
+  a
+    text-decoration: underline
+
+@media screen and (max-width: 800px)
+  .wrapper
+    width: 320px
